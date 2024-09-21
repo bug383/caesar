@@ -25,7 +25,7 @@ int main(int argc, char *argv[]){
         caesar(ascii, argument, length - 1);    
    
    } else{
-        printf("Usage: ./caeser {argument}\n");
+        printf("Usage: ./caesar {argument}\n");
     }
 }
 
