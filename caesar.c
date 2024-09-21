@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #define MAX_LIMIT 100
 
-int caeser(int ascii[], int argument, int length);
+int caesar(int ascii[], int argument, int length);
 
 int main(int argc, char *argv[]){
     
@@ -22,7 +22,7 @@ int main(int argc, char *argv[]){
             ascii[i] = plaintext[i];
         }
 
-        caeser(ascii, argument, length - 1);    
+        caesar(ascii, argument, length - 1);    
    
    } else{
         printf("Usage: ./caeser {argument}\n");
@@ -30,7 +30,7 @@ int main(int argc, char *argv[]){
 }
 
 
-int caeser(int ascii[], int argument, int length){
+int caesar(int ascii[], int argument, int length){
     
     printf("ciphertext:");
     
